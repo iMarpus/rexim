@@ -7,7 +7,7 @@ char winCheck(char **map);
 
 int main()
 {
-	int i, j, count = 2;
+	int i, j, count = 0;
 	char FLAG = ' ';
 	char **map;
 	map = malloc(3*sizeof(char*));
